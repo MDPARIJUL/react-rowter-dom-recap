@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.contact{
+  border: 2px solid green;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 12px;
+  box-shadow: 8px 8px 8px gray;
+}
+.contacts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+nav a.active{
+  text-decoration: underline;
+  color: blueviolet;
+}
